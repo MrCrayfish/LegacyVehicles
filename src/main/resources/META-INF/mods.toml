@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License 3.0"
+issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishVehicleMod/issues"
+
+[[mods]]
+modId="legacyvehicle"
+version="1.0.0"
+displayName="Legacy Vehicles"
+updateJSONURL="https://mrcrayfish.com/modupdatejson?id=legacyvehicle"
+displayURL="https://mrcrayfish.com/mods?id=legacyvehicle"
+logoFile="legacy_vehicles.png"
+credits=""
+authors="MrCrayfish"
+description="Restores the vehicles that were removed from MrCrayfish's Vehicle Mod"
+
+[[dependencies.legacyvehicle]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.legacyvehicle]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.legacyvehicle]]
+    modId="obfuscate"
+    mandatory=true
+    versionRange="[0.4.0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.legacyvehicle]]
+    modId="vehicle"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
