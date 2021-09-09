@@ -1,0 +1,20 @@
+{
+  "type": "vehicle:workstation",
+  "vehicle": "legacyvehicle:bath",
+  "conditions": [
+    {
+      "modid": "cfm",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 80
+    },
+    {
+      "item": "vehicle:panel",
+      "count": 10
+    }
+  ]
+}

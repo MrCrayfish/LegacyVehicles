@@ -1,0 +1,11 @@
+{
+    "entity.bumper_car.engine": {
+        "sounds": [ {"name": "legacyvehicle:entity/bumper_car/engine"}]
+    },
+    "entity.bumper_car.bonk": {
+        "sounds": [ {"name": "legacyvehicle:entity/bumper_car/bonk"}]
+    },
+    "entity.speed_boat.engine": {
+        "sounds": [ {"name": "legacyvehicle:entity/speed_boat/engine"}]
+    }
+}
