@@ -82,7 +82,7 @@ public class BathModel extends AbstractPlaneRenderer<BathEntity>
         return (tracer, transforms, parts) ->
         {
             TransformHelper.createTransformListForPart(ForgeRegistries.ITEMS.getValue(new ResourceLocation("cfm:bath")), parts, transforms,
-                    MatrixTransform.rotate(Axis.POSITIVE_Y, 90F));
+                    MatrixTransform.rotate(Axis.POSITIVE_Y.rotationDegrees(90F)));
         };
     }
 }

@@ -76,7 +76,7 @@ public class SmartCarRenderer extends AbstractLandVehicleRenderer<SmartCarEntity
             TransformHelper.createTransformListForPart(SpecialModels.SMART_CAR_BODY, parts, transforms);
             TransformHelper.createTransformListForPart(com.mrcrayfish.vehicle.client.model.SpecialModels.GO_KART_STEERING_WHEEL, parts, transforms,
                     MatrixTransform.translate(0.0F, 0.2F, 0.3F),
-                    MatrixTransform.rotate(Axis.POSITIVE_X, -67.5F),
+                    MatrixTransform.rotate(Axis.POSITIVE_X.rotationDegrees(-67.5F)),
                     MatrixTransform.translate(0.0F, -0.02F, 0.0F),
                     MatrixTransform.scale(0.9F));
             TransformHelper.createTowBarTransforms(ModEntities.SMART_CAR.get(), com.mrcrayfish.vehicle.client.model.SpecialModels.TOW_BAR, parts);

@@ -7,6 +7,7 @@ import com.mrcrayfish.vehicle.common.Seat;
 import com.mrcrayfish.vehicle.common.entity.Transform;
 import com.mrcrayfish.vehicle.datagen.VehiclePropertiesProvider;
 import com.mrcrayfish.vehicle.entity.EngineType;
+import com.mrcrayfish.vehicle.entity.FuelFillerType;
 import com.mrcrayfish.vehicle.entity.Wheel;
 import com.mrcrayfish.vehicle.entity.properties.PoweredProperties;
 import com.mrcrayfish.vehicle.entity.properties.VehicleProperties;
@@ -263,6 +264,7 @@ public class VehiclePropertiesGen extends VehiclePropertiesProvider
                         .setEnergyConsumptionPerTick(0.75F)
                         .setCanLockWithKey(false)
                         .setEngineSound(ModSounds.ENTITY_SPEED_BOAT_ENGINE.getId())
+                        .setFuelFillerType(FuelFillerType.SMALL)
                         .build()));
 
         this.add(new ResourceLocation("legacyvehicle", "bath"), VehicleProperties.builder()

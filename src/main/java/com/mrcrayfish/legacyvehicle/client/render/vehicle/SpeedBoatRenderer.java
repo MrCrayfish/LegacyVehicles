@@ -107,7 +107,7 @@ public class SpeedBoatRenderer extends AbstractBoatRenderer<SpeedBoatEntity>
             TransformHelper.createTransformListForPart(SpecialModels.SPEED_BOAT_BODY, parts, transforms);
             TransformHelper.createTransformListForPart(com.mrcrayfish.vehicle.client.model.SpecialModels.GO_KART_STEERING_WHEEL, parts, transforms,
                     MatrixTransform.translate(0.0F, 0.215F, -0.125F),
-                    MatrixTransform.rotate(Axis.POSITIVE_X, -45F),
+                    MatrixTransform.rotate(Axis.POSITIVE_X.rotationDegrees(-45F)),
                     MatrixTransform.translate(0.0F, 0.02F, 0.0F));
             TransformHelper.createFuelFillerTransforms(ModEntities.SPEED_BOAT.get(), com.mrcrayfish.vehicle.client.model.SpecialModels.FUEL_DOOR_CLOSED, parts, transforms);
         };

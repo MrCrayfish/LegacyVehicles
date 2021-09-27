@@ -34,11 +34,4 @@ public class SpeedBoatEntity extends BoatEntity
             }
         }
     }
-
-
-    @Override
-    public FuelPortType getFuelPortType()
-    {
-        return FuelPortType.SMALL;
-    }
 }

@@ -80,7 +80,7 @@ public class BumperCarModel extends AbstractLandVehicleRenderer<BumperCarEntity>
             TransformHelper.createTransformListForPart(SpecialModels.BUMPER_CAR_BODY, parts, transforms);
             TransformHelper.createTransformListForPart(com.mrcrayfish.vehicle.client.model.SpecialModels.GO_KART_STEERING_WHEEL, parts, transforms,
                     MatrixTransform.translate(0.0F, 0.2F, 0.0F),
-                    MatrixTransform.rotate(Axis.POSITIVE_X, -45F),
+                    MatrixTransform.rotate(Axis.POSITIVE_X.rotationDegrees(-45F)),
                     MatrixTransform.translate(0.0F, -0.02F, 0.0F),
                     MatrixTransform.scale(0.9F));
             TransformHelper.createFuelFillerTransforms(ModEntities.BUMPER_CAR.get(), com.mrcrayfish.vehicle.client.model.SpecialModels.FUEL_DOOR_CLOSED, parts, transforms);

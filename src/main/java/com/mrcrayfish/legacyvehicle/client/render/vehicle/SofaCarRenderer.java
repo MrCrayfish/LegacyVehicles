@@ -55,7 +55,7 @@ public class SofaCarRenderer extends AbstractLandVehicleRenderer<CouchEntity>
         return (tracer, transforms, parts) ->
         {
             TransformHelper.createTransformListForPart(SpecialModels.RAINBOW_SOFA, parts, transforms,
-                    MatrixTransform.rotate(Axis.POSITIVE_Y, 90F),
+                    MatrixTransform.rotate(Axis.POSITIVE_Y.rotationDegrees(90F)),
                     MatrixTransform.translate(0.0F, 0.0625F, 0.0F));
         };
     }
